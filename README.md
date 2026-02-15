@@ -10,6 +10,19 @@ Family money analyzer focused on statement ingestion, normalization, and reconci
 - CSV combiner that merges many statement CSV files into one deduplicated ledger.
 - Golden-fixture parser test harness.
 
+## Project task status (Beads)
+
+You can view the current task board directly on GitHub in `BEADS_STATUS.md`.
+
+- Snapshot file: `BEADS_STATUS.md`
+- Source of truth: `.beads/issues.jsonl`
+- Auto-refresh on push to `master`: `.github/workflows/beads-status.yml`
+- Refresh snapshot locally:
+
+```bash
+python3 scripts/export_beads_status.py
+```
+
 ## Canonical CSV schema
 
 The generated CSV columns are:
