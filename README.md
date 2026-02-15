@@ -56,3 +56,9 @@ money-combine output/parsed --output output/combined/transactions.csv
 ```bash
 pytest
 ```
+
+## Parser test approach
+
+- Always validate parser behavior through the real PDF path (`parse_pdf`), not only plain-text parsing.
+- Use only synthetic/anonymized statement fixtures for tests; never include personal data from real user files.
+- Keep generated PDF fixtures in `tests/fixtures/statements_pdf/` and maintain the generator script in `tests/fixtures/generate_statement_pdf_fixtures.py` so fixtures are both inspectable and reproducible.

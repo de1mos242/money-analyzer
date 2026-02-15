@@ -1,0 +1,78 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 5 0 R >> >> /Contents 4 0 R >>
+endobj
+4 0 obj
+<< /Length 834 >>
+stream
+BT
+/F1 12 Tf
+36 780 Td
+(ALEX EXAMPLE) Tj
+0 -16 Td
+(Sampleweg 42, 10115 Berlin) Tj
+0 -16 Td
+(IBAN: DE00999900001111222233 - BIC: NTSBDEB1XXX) Tj
+0 -16 Td
+(Erstellt am) Tj
+0 -16 Td
+(26.01.2026) Tj
+0 -16 Td
+(1 / 1) Tj
+0 -16 Td
+(Beschreibung Verbuchungsdatum Betrag) Tj
+0 -16 Td
+(NORTH STAR SUPERMARKET) Tj
+0 -16 Td
+(Mastercard - Groceries) Tj
+0 -16 Td
+(Wertstellung 03.01.2026) Tj
+0 -16 Td
+(03.01.2026 -41,27 EUR) Tj
+0 -16 Td
+(BLUE RIVER ELECTRIC) Tj
+0 -16 Td
+(Lastschriften) Tj
+0 -16 Td
+(IBAN: DE00888877776666555544 - BIC: TESTDEFFXXX) Tj
+0 -16 Td
+(Abo Januar 2026) Tj
+0 -16 Td
+(Wertstellung 04.01.2026) Tj
+0 -16 Td
+(04.01.2026 -87,45 EUR) Tj
+0 -16 Td
+(From Rainy Day Space) Tj
+0 -16 Td
+(Wertstellung 04.01.2026) Tj
+0 -16 Td
+(04.01.2026 +520,00 EUR) Tj
+0 -16 Td
+(Vorlaeufiger Kontoauszug) Tj
+0 -16 Td
+(01.01.2026 bis 26.01.2026) Tj
+ET
+endstream
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000241 00000 n 
+0000001125 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+1195
+%%EOF
