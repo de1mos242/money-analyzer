@@ -13,7 +13,7 @@ from money_analyzer.parsing.parsers.common import (
 class C24Parser(StatementParser):
     parser_id = "c24"
     bank_name = "C24"
-    detection_keywords = ("c24", "c24 bank", "kontoauszug")
+    detection_keywords = ("c24", "c24 bank")
     line_pattern = re.compile(
         r"^(?P<date>\d{2}[./]\d{2}[./]\d{4})\s+"
         r"(?:(?P<posted_date>\d{2}[./]\d{2}[./]\d{4})\s+)?"

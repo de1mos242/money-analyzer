@@ -13,7 +13,7 @@ from money_analyzer.parsing.parsers.common import (
 class N26Parser(StatementParser):
     parser_id = "n26"
     bank_name = "N26"
-    detection_keywords = ("n26", "kontoubersicht", "kontoauszug")
+    detection_keywords = ("n26", "n26 bank", "kontoubersicht")
     line_pattern = re.compile(
         r"^(?P<date>\d{2}[./]\d{2}[./]\d{4})\s+"
         r"(?P<description>.+?)\s+"
