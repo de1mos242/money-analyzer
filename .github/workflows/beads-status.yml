@@ -26,8 +26,11 @@ jobs:
       - name: Install Beads CLI
         run: |
           curl -sSL https://raw.githubusercontent.com/steveyegge/beads/main/scripts/install.sh | bash
-          echo "$HOME/.local/bin" >> "$GITHUB_PATH"
-          "$HOME/.local/bin/bd" version
+          if [ -d "$HOME/.local/bin" ]; then
+            echo "$HOME/.local/bin" >> "$GITHUB_PATH"
+            export PATH="$HOME/.local/bin:$PATH"
+          fi
+          bd version
 
       - name: Generate BEADS_STATUS.md
         run: python3 scripts/export_beads_status.py
