@@ -1,15 +1,15 @@
 # Beads Task Status
 
-Last updated from Beads data: 2026-02-15 23:31 UTC
+Last updated from Beads data: 2026-02-15 23:58 UTC
 
 ## Summary
 
-- Total issues: 28
+- Total issues: 31
 - Open: 14
 - Done: 14
 - In progress: 0
 - Epics: 5
-- Tasks: 23
+- Tasks: 26
 
 ## Open Items
 
